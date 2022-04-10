@@ -4,7 +4,7 @@
         "type": "git",
         "url": "https://github.com/anhduy1202/simple-graph.git"
     },
-    "version": "0.0.3",
+    "version": "0.0.31",
     "description": "A simple React component library for making directed/undirected graph",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
