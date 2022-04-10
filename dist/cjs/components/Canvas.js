@@ -24,21 +24,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Canvas = void 0;
-const react_1 = require("react");
-const react_2 = __importStar(require("react"));
+const react_1 = __importStar(require("react"));
 const Canvas = (props) => {
     const { children } = props;
-    const canvasRef = (0, react_2.useRef)('');
-    (0, react_1.useEffect)(() => {
-        let element = document.getElementsByTagName('html')[0];
-        let body = document.getElementsByTagName('body')[0];
-        element.style.width = '100vw';
-        element.style.height = '100vh';
-        body.style.width = '100vw';
-        body.style.height = '100vh';
-    }, []);
-    return (react_2.default.createElement(react_2.default.Fragment, null,
-        react_2.default.createElement("canvas", Object.assign({ id: "myCanvas", style: { width: '600', height: '600' }, ref: canvasRef }, props)),
+    const canvasRef = (0, react_1.useRef)('');
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement("canvas", Object.assign({ id: "myCanvas", width: window.innerWidth, height: window.innerHeight, ref: canvasRef }, props)),
         children));
 };
 exports.Canvas = Canvas;
