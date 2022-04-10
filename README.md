@@ -14,7 +14,7 @@ npm i simple-graph-ui
 ### ``` Canvas ``` (Must have)
 * A wrapper layout to hold drawing of the graph
 
-### Ex: ``` <Canvas> <Node/> <Canvas> ```
+### Ex: ``` <Canvas> <Node/> </Canvas> ```
 
 
 ### ``` Node(val: string | number, x: nunmber, y:number) ```
