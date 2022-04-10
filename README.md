@@ -11,10 +11,16 @@ npm i simple-graph-ui
 
 ## 🌐 Components
 
-### ``` Node(val: string | number) ```
-* Create a node with the text label inside
+### ``` Canvas ``` (Must have)
+* A wrapper layout to hold drawing of the graph
 
-### Ex: ``` <Node val={4}/> ```
+### Ex: ``` <Canvas> <Node/> <Canvas> ```
+
+
+### ``` Node(val: string | number, x: nunmber, y:number) ```
+* Create a node with the text label inside with custom x,y coordinates
+
+### Ex: ``` <Node label={4} x={75} y={75}/> ```
 ### Result: 
 <img width="176" alt="Screen Shot 2022-04-10 at 2 56 17 AM" src="https://user-images.githubusercontent.com/58461444/162612753-db74522a-e390-4269-a581-c41e5c054611.png">
 
