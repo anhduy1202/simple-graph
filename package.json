@@ -4,7 +4,7 @@
         "type": "git",
         "url": "https://github.com/anhduy1202/simple-graph.git"
     },
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A simple React component library for making directed/undirected graph",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
@@ -16,9 +16,7 @@
         "build-storybook": "build-storybook",
         "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
         "build:esm": "tsc",
-        "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
-        "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
     },
     "author": "Daniel Truong",
     "license": "MIT",
