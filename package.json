@@ -2,7 +2,7 @@
     "name": "simple-graph-ui",
     "repository": {
         "type": "git",
-        "url": "https://github.com/anhduy1202/simple-graph.git"
+        "url": "https://github.com/anhduy1202/simple-graph-ui.git"
     },
     "version": "0.0.32",
     "description": "A simple React component library for making directed/undirected graph",
