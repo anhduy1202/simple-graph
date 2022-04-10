@@ -1,7 +1,7 @@
 # 💫  Simple Graph UI
 <img src="https://img.shields.io/npm/v/simple-graph-ui"/> <img src="https://img.shields.io/npm/dw/simple-graph-ui?color=blue"/> <img src="https://img.shields.io/bundlephobia/min/simple-graph-ui?color=gree"/> 
 
-> A simple React component library to creete directed/undirected graph for visualization
+> A simple React component library to create directed/undirected graph for visualization
 
 ## 👇 Installation
 
