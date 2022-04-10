@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import React, { useRef } from 'react';
 
 export interface CanvasType extends React.DetailedHTMLProps<React.CanvasHTMLAttributes<HTMLCanvasElement>, HTMLCanvasElement> {}

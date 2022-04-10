@@ -1,5 +1,7 @@
 import React from 'react';
 export interface NodeType {
-    val: string | number;
+    label: string | number;
+    x: number;
+    y: number;
 }
 export declare const Node: React.FC<NodeType>;
