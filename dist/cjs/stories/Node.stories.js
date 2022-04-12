@@ -12,7 +12,8 @@ exports.default = {
     title: 'Node'
 };
 const Template = (args) => (react_1.default.createElement(components_1.Canvas, null,
-    react_1.default.createElement(Node_1.Node, Object.assign({ label: 'A', x: 75, y: 75 }, args)),
-    react_1.default.createElement(Node_1.Node, Object.assign({ label: 'B', x: 600, y: 85 }, args))));
+    react_1.default.createElement(Node_1.Node, Object.assign({ label: 'A', x: 75, y: 75, neighbor: "B" }, args)),
+    react_1.default.createElement(Node_1.Node, Object.assign({ label: 'B', x: 600, y: 85, neighbor: "A" }, args)),
+    react_1.default.createElement(Node_1.Node, Object.assign({ label: 'C', x: 600, y: 500, neighbor: "B" }, args))));
 exports.Primary = Template.bind({});
 //# sourceMappingURL=Node.stories.js.map

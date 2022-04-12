@@ -1,6 +1,8 @@
 import React from 'react';
 export interface NodeType {
-    label: string | number;
+    uuid?: number;
+    neighbor?: string;
+    label: string;
     x: number;
     y: number;
 }
